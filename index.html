@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LU studenta dienasgrāmata</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="topbar" aria-label="Galvenā navigācija">
+      <a class="brand" href="#top" aria-label="Uz sākumu">LU dienasgrāmata</a>
+      <div class="controls">
+        <label class="select-label" for="sortOrder">Kārtot:</label>
+        <select id="sortOrder" class="select-control" aria-label="Kārtot ierakstus">
+          <option value="asc">Hronoloģiski</option>
+          <option value="desc">Apgriezti hronoloģiski</option>
+        </select>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-pressed="false">
+          <span class="theme-icon">☾</span>
+          <span class="theme-text">Tumšā tēma</span>
+        </button>
+      </div>
+    </nav>
+
+    <section id="top" class="hero">
+      <p class="eyebrow">Latvijas Universitāte • studenta ikdiena</p>
+      <h1>LU studenta dienasgrāmata</h1>
+      <p class="hero-text">
+        Šis blogs ir Latvijas Universitātes studenta dienasgrāmata, 
+        kura merķis ir parādīt ar studēšanu LU saistītu ikdienību. 
+        Katru darba dienu, kad autors atceres to izdarīt, 
+        šeit tiks aprakstīta diena no Latvijas Universitātes studenta dzīves: 
+        ceļš uz univarsitāti, lekcijas, programmēšana, bibliotēku apmeklējums, un mazi ikdienas rituāli. 
+        Vietni kā patstāvīgo darbu kursā <strong>Tīmekļa dizaina pamati</strong> izveidoja students <strong>Oļegs Petrenko</strong>.
+      </p>
+    </section>
+  </header>
+
+  <main class="page-shell">
+    <section class="intro-card" aria-label="Par blogu">
+      <h2>Nedēļa vienā lentē</h2>
+      <p>
+        Lai vieglāk sekot līdzi studenta dzīvei šīs blogs is strukturizēts ka s sociālā tīkla lente: 
+        katram ierakstam ir datums, trīs attēli un īss apraksts par dienu.
+        Tadā veidā kad šis blogs palīks daudz garāk ar ikdieniskiem ierakstiem, 
+        tas veidos hronoloģiskum, var but pat dokumentālu stāstu.
+      </p>
+    </section>
+
+    <section id="posts" class="posts" aria-label="Dienasgrāmatas ieraksti">
+      <article class="post-card" data-date="2026-05-25">
+        <time datetime="2026-05-25">25. maijs, pirmdiena</time>
+        <div class="gallery">
+          <img src="assets/costume1.jpg" alt="Students viduslaiku kostīma, ar zobeni rokās" />
+          <img src="assets/tramb.jpg" alt="Tramvais pie pieturas Merķeļa Iela" />
+          <img src="assets/costume2.jpg" alt="Students viduslaiku kostīma, sež pie ūdens dzesētāja" />
+          
+        </div>
+        <div class="post-body">
+          <h2>Nedēļa sākas ar tās sākumu</h2>
+          <p>
+            Pirmdiena ir darba nedēļas sākums. Ir zinams ka ir daudz grutāk pacelties no
+            gultas tieši pirmdienās. Šodien bija īpaši grūti, jo berīvdienu laikā
+            neizdevas karīgi atpūsties. Esmu volonters organizācijā kura katru gadu 
+            uztverž festīvālu Maja Grafs. Un tās nozīme ka sestdien es paceļos 5:00,
+            lai paspētu 6:00 uz Ziedoņdārza parku kur notiek svinības. Sākam ar tentu 
+            un rekvezītu uzstādīšanu, kas nav līdz gala pabeigts gan 10:00, kad oficiāli
+            sākas festivāls. Un pēc tam līdz 22:00 es biju savā budī, atbildīgs par vienu
+            no festivala zonam. Pakot visu no parka un atgriezties mājās musms izdevas tikai svētdienas rītā.
+            Tāpēc svetdien gulēju parak ilgi un parāk agri.
+            Vismas pirmdien ir tika divas lekcijas - abit par ORACLE datubāzes dizaina
+            rīkiem. Un pirma no tām sākas 10:30.
+          </p>
+        </div>
+      </article>
+
+      <article class="post-card" data-date="2026-05-26">
+        <time datetime="2026-05-26">26. maijs, otrdiena</time>
+        <div class="gallery">
+          <img src="assets/champ.jpg" alt="Students klausas lekcijai" />
+          <img src="assets/books.jpg" alt="Grāmatas un mācību materiāli" />
+          <img src="assets/sakura1.jpg" alt="Sakura zied Uzvaras parkā" />
+        </div>
+        <div class="post-body">
+          <h2>Īsaka diena</h2>
+          <p>
+            Otrdiena ir viss vieglāka nedeļas diena, ir tikai viena lekcija - Algoritmu Teorija.
+            Visi mani koļēģi studenti tiko ļoti pasmējas. Algoritmu teorija ir viens 
+            no grūtakajiem priekšmetiem lai saprast. Tas darbojas ļoti daudz ar 
+            apstrakiem matemaiskiem konceptiem, un tas ir ļoti grūti saprast, gan ar pagajušo gadu pieredzi.
+            Daudziem cilvēkiem parasti ir ļoti grūti intuitīvi uztvert loģiku. Un 
+            šodien lekcijā piedalijas dauz vairāk cilvēku neka parasti, jo
+            nakamnedeļ ir kontroldarbs. Lai mums palīdz Dievs. 
+          </p>
+        </div>
+      </article>
+
+      <article class="post-card" data-date="2026-05-27">
+        <time datetime="2026-05-27">27. maijs, trešdiena</time>
+        <div class="gallery">
+          <img src="assets/enter.jpg" alt="Galvēna ieēja Latvijas Universitātes Raiņa bulvārī ekā." />
+          <img src="assets/creature.jpg" alt="Divi kostumēti festivala dalībnieki" />
+          <img src="assets/hair.jpg" alt="3rd hour of waiting for your turn" />
+        </div>
+        <div class="post-body">
+          <h2>Tīmekļa dizainas. Ļoti daudz dizaina.</h2>
+          <p>
+            Timekļu dizaina dien! Šodien 8:30 sākas lekcija par tīmekļa dizainu, un tā ir viena no manām mīļākajām. Šodien bija daudz informācijas par to, kā veidot tīmekļa lapas, kā izvēlēties krāsas, fontus un izkārtojumu.
+            Lekciju bija prieks klausīties, bet galvenais notukums dinā sāksies 8 pēc tās.
+            Parastī tajā laikā sākas praktiskie darbi tīmekļa dizainā, un šodien 
+            tehniski notiek tās pats, bet darbs ir neparasts. Šodien ir seminārs.
+            Šī semināra laika studenti prezentēja savus dizaina konceptus, un 
+            arī visus izildītus dizaina uzdevumus kurā laikā. Es prezentēju pedējais,
+            tā pēc jau zinaju katru problēmu ar manu darvu pirms profesore sāka runāt,
+            jo ļoti daudziem kolēģiem bija tādas pašas problēmas, un es jau biju tās atrisinājis. Bet tas bija ļoti interesanti, jo es varēju redzēt, kā citi studenti risina tās pašas problēmas.
+        </div>
+      </article>
+
+      <article class="post-card" data-date="2026-05-28">
+        <time datetime="2026-05-28">28. maijs, ceturtdiena</time>
+        <div class="gallery">
+          <img src="assets/sakura2.jpg" alt="Sakura zied Uzvaras parkā" />
+          <img src="assets/brauciens.jpg" alt="Brauciens caur Rīgu pēc studiju dienas" />
+          <img src="assets/tram.jpg" alt="Braucines tramvajā caur rīta miglu" />
+        </div>
+        <div class="post-body">
+          <h2>Vairāk matemātikas</h2>
+          <p>
+            Ceturdiena ir matemātikas diena. Šodien notika gan Kombinatorikas gan
+            Kvantu skaitļošanas lekcijas. Kombinatorika ir ļoti interesants priekšmets, bet tas ir arī ļoti grūts. Šodien mēs runājām par dažādiem kombinatorikas problēmām,
+             un tas gan boija interesanti, bet ārpratīgi neintuitīvi. Kvantu skaitļošana ir vēl grūtāka, un šodien mēs runājām par kvantu algoritmiem. Un līdz vakaram ir janodod mājasdarbu par iepriekšejo tēmu.
+             Bet tieši šodien cēļš uz universitāti bija ļoti skaists, jo sakuras ziedēja, bet kopa ar to 
+             bija arī ļoti makoini. Kopā tas uztaisīja kartīgu pavasara atmosfēru.
+          </p>
+        </div>
+      </article>
+
+      <article class="post-card" data-date="2026-05-29">
+        <time datetime="2026-05-29">29. maijs, piektdiena</time>
+        <div class="gallery">
+          <img src="assets/boom.jpg" alt="Students stāv pie pirotehnikas veikala" />
+          <img src="assets/roofs.jpg" alt="pilsētas jumtu fotogrāfija" />
+          <img src="assets/tramc.jpg" alt="brauciens tramvajā vakarā" />
+        </div>
+        <div class="post-body">
+          <h2>Ieročaina garlaicība</h2>
+          <p>
+            Piekdien ir tīmekļa lekclija Objeka Orientētā programmēšana. Šodien mēs runājām par dažādiem objektorientētas programmēšanas konceptiem, un tas bija ļoti garlaicīgi.
+            Pasniedzēju ir ļoti grūti klausīties, pec vinās runas stila liekas ka cilvēkam
+            galīgi neinterese ne pasniedzība ne studenti, ne pat priekšmets kuru viņš mums māca.
+            Viņš runa lēni, ar īsiem bet vāji saistītiem teikumiem. Bet galvenais bonuss
+            it ka zinašanas parbaudes testos vairākas reižes viņš iekļāva jautājumus tipa
+            "Ko es pateicu kadā no lekcijam: A, B, C vai D?".
+            Es ienistu piekdienas.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section class="useful-links" aria-label="Noderīgas saites">
+      <div class="useful-links-card">
+        <p>Noderīgas Saites</p>
+        <h2>Uzzināt vairāk par Latvijas Universitāti</h2>
+        <div class="link-buttons">
+          <a class="link-button" href="https://www.lu.lv/" target="_blank" rel="noreferrer noopener">Latvijas Universitāte</a>
+          <a class="link-button" href="https://www.lu.lv/studijas/studiju-programmas/bakalaura-limena-studijas/datorzinatnes/Bakalaura" target="_blank" rel="noreferrer noopener">Datorzinatņu Fakultāte</a>
+          <a class="link-button" href="https://www.lu.lv/studijas/studentu-padome/" target="_blank" rel="noreferrer noopener">Studentu Padome</a>
+          <a class="link-button" href="https://www.biblioteka.lu.lv/" target="_blank" rel="noreferrer noopener">Bibliotēka</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Oļegs Petrenko • LU studenta dienasgrāmata</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
